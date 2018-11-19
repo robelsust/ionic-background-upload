@@ -143,11 +143,11 @@ public class FileTransferBackground extends CordovaPlugin {
         });
 
       for (String key : payload.parameters.keySet()) {
-        request.addParameter(key, payload.parameters.get(key));
+        //request.addParameter(key, payload.parameters.get(key));
       }
 
       for (String key : payload.headers.keySet()) {
-        request.addHeader(key, payload.headers.get(key));
+        //request.addHeader(key, payload.headers.get(key));
       }
 
       request.startUpload();
